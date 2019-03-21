@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="cardbackground">#FFEBEE</color>
+    <color name="text_color_light">#9C27B0</color>
+    <color name="text_color_dark">#000</color>
+    <color name="details_background">#EDE7F6</color>
+    <color name="error_text">#F7344A</color>
+    <color name="title_text">#F5FDFD</color>
+    <color name="noactionbardark">#AD1457</color>
+    <color name="noactionbarprimary">#EC407A</color>
+    <color name="widget_background">#09C</color>
+    <color name="black">#000</color>
+    <color name="gradient_one">#DA6C10D6</color>
+    <color name="gradient_two">#77F80B6A</color>
+    <color name="background_three">#29B6F6</color>
+    <color name="button_color">#F06292</color>
+</resources>

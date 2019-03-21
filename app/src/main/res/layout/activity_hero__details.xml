@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/details_background"
+    tools:context=".activity.Hero_Details">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/detailsimageview"
+                android:contentDescription="@string/hero"
+                android:layout_width="@dimen/image_width"
+                android:layout_height="@dimen/image_height"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/margin_eight"
+                android:layout_marginTop="@dimen/margin_eight"
+                android:layout_marginEnd="@dimen/margin_eight"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.github.ivbaranov.mfb.MaterialFavoriteButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/favbutton"
+                app:mfb_type="star"/>
+
+
+            <TextView
+                android:id="@+id/txtname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_color_light"
+                android:textSize="@dimen/text_heading_size"
+                />
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginStart="@dimen/fab_margin"
+                    android:layout_marginTop="@dimen/margin_eight"
+                    android:text="@string/powerstat_string"
+                    android:textSize="@dimen/text_heading_size"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginStart="@dimen/size_fourty"
+                    android:layout_marginTop="@dimen/margin_eight"
+                    android:layout_marginEnd="@dimen/margin_eight"
+                    android:text="@string/appearence_string"
+                    android:textSize="@dimen/text_heading_size"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@+id/textView3"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <TableLayout
+                    android:id="@+id/tableLayout"
+                    android:layout_width="@dimen/table_width"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginStart="@dimen/margin_eight"
+                    android:layout_marginTop="@dimen/margin_eight"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+                    <TableRow>
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="left"
+                            android:padding="@dimen/padding_fourdip"
+                            android:text="@string/intelligence_string"
+                            android:textColor="@color/text_color_dark" />
+
+                        <TextView
+                            android:id="@+id/txtIntelligence"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="@dimen/padding_threedip"
+                            android:textColor="@color/text_color_light" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="left"
+                            android:padding="@dimen/padding_fourdip"
+                            android:text="@string/strength_string"
+                            android:textColor="@color/text_color_dark" />
+
+                        <TextView
+                            android:id="@+id/txtStrength"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="@dimen/padding_threedip"
+                            android:textColor="@color/text_color_light" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="left"
+                            android:padding="@dimen/padding_fourdip"
+                            android:text="@string/speed_string"
+                            android:textColor="@color/text_color_dark" />
+
+                        <TextView
+                            android:id="@+id/txtSpeed"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="@dimen/padding_threedip"
+                            android:textColor="@color/text_color_light" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="left"
+                            android:padding="@dimen/padding_fourdip"
+                            android:text="@string/power_string"
+                            android:textColor="@color/text_color_dark" />
+
+                        <TextView
+                            android:id="@+id/txtPower"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="@dimen/padding_threedip"
+                            android:textColor="@color/text_color_light" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="left"
+                            android:padding="@dimen/padding_fourdip"
+                            android:text="@string/combat_string"
+                            android:textColor="@color/text_color_dark" />
+
+                        <TextView
+                            android:id="@+id/txtCombat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="@dimen/padding_threedip"
+                            android:textColor="@color/text_color_light" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="left"
+                            android:padding="@dimen/padding_fourdip"
+                            android:text="@string/durability_string"
+                            android:textColor="@color/text_color_dark" />
+
+                        <TextView
+                            android:id="@+id/txtDurability"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="@dimen/padding_threedip"
+                            android:textColor="@color/text_color_light" />
+                    </TableRow>
+
+
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/fab_margin"
+                    android:layout_marginTop="@dimen/margin_eight"
+                    android:layout_marginEnd="@dimen/margin_eight"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.111"
+                    app:layout_constraintStart_toEndOf="@+id/tableLayout"
+                    app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="left"
+                            android:padding="@dimen/padding_fourdip"
+                            android:text="@string/height_string"
+                            android:textColor="@color/text_color_dark" />
+
+                        <TextView
+                            android:id="@+id/txtHeight"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:padding="@dimen/padding_threedip"
+                            android:textColor="@color/text_color_light" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="left"
+                            android:padding="@dimen/padding_fourdip"
+                            android:text="@string/weight_sttring"
+                            android:textColor="@color/text_color_dark" />
+
+                        <TextView
+                            android:id="@+id/txtWeight"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:padding="@dimen/padding_threedip"
+                            android:textColor="@color/text_color_light" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:gravity="left"
+                            android:padding="@dimen/padding_fourdip"
+                            android:text="@string/place_string"
+                            android:textColor="@color/text_color_dark" />
+
+                        <TextView
+                            android:id="@+id/txtPlace"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:padding="@dimen/padding_threedip"
+                            android:textColor="@color/text_color_light" />
+                    </TableRow>
+                </TableLayout>
+
+            </android.support.constraint.ConstraintLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/real_name_string"
+                android:textSize="@dimen/text_lable_size"/>
+            <TextView
+                android:id="@+id/txtRealName"
+                android:layout_width="match_parent"
+                android:layout_marginStart="@dimen/fab_margin"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_heading_size"
+                android:textColor="@color/text_color_light"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/publisher_string"
+                android:textSize="@dimen/text_lable_size"/>
+            <TextView
+                android:id="@+id/txtPublisher"
+                android:layout_width="match_parent"
+                android:layout_marginStart="@dimen/fab_margin"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_heading_size"
+                android:textColor="@color/text_color_light"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/first_appearence_string"
+                android:textSize="@dimen/text_lable_size"/>
+            <TextView
+                android:id="@+id/txtAppearence"
+                android:layout_width="match_parent"
+                android:layout_marginStart="@dimen/fab_margin"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_heading_size"
+                android:textColor="@color/text_color_light"/>
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.v4.widget.NestedScrollView>

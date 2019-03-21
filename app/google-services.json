@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "666461458",
+    "firebase_url": "https://superheros-3e764.firebaseio.com",
+    "project_id": "superheros-3e764",
+    "storage_bucket": "superheros-3e764.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666461458:android:56a2731f257d3769",
+        "android_client_info": {
+          "package_name": "com.sai8.superheros"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666461458-427rai2ct0bot78obrv0sfkdhci186jp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sai8.superheros",
+            "certificate_hash": "fac70bd51c02c84dcc427dc88f2a5fa7558c3b97"
+          }
+        },
+        {
+          "client_id": "666461458-hca15cumebcrd54bho20ilt3of2tpbp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXiTjzn4lfWhKMK9J48P1LuZYBvuqzPiE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666461458-hca15cumebcrd54bho20ilt3of2tpbp2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
