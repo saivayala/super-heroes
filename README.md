@@ -25,3 +25,7 @@ Through this project, you will:
 - saving the scroll view Positon on orientation changes
 
 
+## Screenshots
+
+![main ctivitty](https://user-images.githubusercontent.com/46238137/54759227-a8b47880-4c13-11e9-943e-a9e61a7d9537.png)
+
