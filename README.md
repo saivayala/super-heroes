@@ -28,7 +28,7 @@ Through this project, you will:
 ## Screenshots
 
 click to view Screenshots 
-- [main Avtivity](https://files.000webhost.com/handler.php?action=download?action=download&path=%2Fpublic_html%2Fimages%2Fmain+ctivitty.png)
-- [details Activity](https://files.000webhost.com/handler.php?action=download?action=download&path=%2Fpublic_html%2Fimages%2Fdetails+activity.png)
+- [Main Activity](https://files.000webhost.com/handler.php?action=download?action=download&path=%2Fpublic_html%2Fimages%2Fmain+ctivitty.png)
+- [Details Activity](https://files.000webhost.com/handler.php?action=download?action=download&path=%2Fpublic_html%2Fimages%2Fdetails+activity.png)
 
 
