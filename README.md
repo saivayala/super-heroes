@@ -27,8 +27,9 @@ Through this project, you will:
 
 ## Screenshots
 
-click to view Screenshots 
-- [Main Activity](https://files.000webhost.com/handler.php?action=view?action=view&path=%2Fpublic_html%2Fimages%2Fmain+ctivitty.png)
-- [Details Activity](https://files.000webhost.com/handler.php?action=download?action=download&path=%2Fpublic_html%2Fimages%2Fdetails+activity.png)
+![splashactivity](https://user-images.githubusercontent.com/46238137/54760732-a869ac80-4c16-11e9-93b2-98dd58c889da.png){:height="600px" width="300px"}
+![main ctivitty](https://user-images.githubusercontent.com/46238137/54759227-a8b47880-4c13-11e9-943e-a9e61a7d9537.png)
+![widget](https://user-images.githubusercontent.com/46238137/54760727-a43d8f00-4c16-11e9-8aca-9659b28c2cec.png)
+![details activity](https://user-images.githubusercontent.com/46238137/54760755-b3bcd800-4c16-11e9-8bd2-8cd839053617.png)
 
 
