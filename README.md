@@ -27,5 +27,8 @@ Through this project, you will:
 
 ## Screenshots
 
-![main ctivitty](https://user-images.githubusercontent.com/46238137/54759227-a8b47880-4c13-11e9-943e-a9e61a7d9537.png)
+click to view Screenshots 
+- [main Avtivity](https://files.000webhost.com/handler.php?action=download?action=download&path=%2Fpublic_html%2Fimages%2Fmain+ctivitty.png)
+- [details Activity](https://files.000webhost.com/handler.php?action=download?action=download&path=%2Fpublic_html%2Fimages%2Fdetails+activity.png)
+
 
