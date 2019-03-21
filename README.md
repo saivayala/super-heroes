@@ -19,10 +19,9 @@ Through this project, you will:
 - Practice JSON parsing to a model object
 - Design an activity layout
 - Populate all fields in the layout accordingly
+- how to check network connection.
+- how to add to widgets
+- how to use recycler view
+- saving the scroll view Positon on orientation changes
 
-## How Do I Complete this Project?
-Download the [Sandwich Club app starter code.](https://github.com/udacity/sandwich-club-starter-code)
 
-Design the layout for the detail activity so the different elements
-display in a sensible way. Implement the JSON parsing in JsonUtils so it
-produces a Sandwich Object that can be used to populate the UI that you designed.
